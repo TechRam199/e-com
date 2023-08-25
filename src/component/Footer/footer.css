@@ -1,0 +1,124 @@
+.footer_Cont{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}
+
+
+.footer_left{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer-Title{
+    margin-bottom: 20px;
+}
+.footerDesc{
+    display: flex;
+font-size: 16px;
+text-align: center;
+}
+
+
+.footer_icon_Cont{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size:25px ;
+    width: 40px;
+    background-color:#3B5999 ;
+    border-radius: 50%;
+    color:white;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color:#E4405F ;
+    border-radius: 50%;
+    color:white;
+
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color:	#00aced ;
+    border-radius: 50%;
+    color:white;
+
+}
+
+.pinterest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #cb2027 ;
+    border-radius: 50%;
+    color:white;
+}
+
+.socialIcon{
+    margin-left: 10px;
+   
+}
+
+.footer_center{
+    flex: 1;
+    padding: 20px;
+}
+
+
+.footer_center_cont ul{
+    list-style: none;
+    padding: 0px;
+margin-top: 20px;
+    display: flex;
+  flex-wrap: wrap;
+ margin-bottom: 20px;
+}
+.footer_center_cont ul li{
+    list-style: none;
+    font-size: 14px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.footer_Right{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer_right_Icon{
+    margin-right: 10px  ;
+}
+.footer_Icon_Item{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.payment{
+    margin-top: 20px;
+}

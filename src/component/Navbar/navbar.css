@@ -1,0 +1,80 @@
+.nav-containor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    padding: 20px;
+   
+    background-color:white
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    color: gray;
+ 
+
+}
+.language{
+    margin-right: 10px;
+    font-weight: 300;
+}
+.inputsearch{
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+  
+}
+.search{
+    display: flex;
+    padding: 3px 5px; 
+    border-radius: 3px;
+
+    border: 1px solid gray;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 400;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.right-link{
+    margin-right: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+.shopingIcon{
+    display: flex;
+  align-items: center;
+
+}
+.shoping{
+  color: rgb(6, 6, 66);
+}
+
+.badge{
+    display: flex;
+    width: 20px;
+    margin-top: -20px;
+    margin-left: -8px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius:50% ;
+    font-size: 12px;
+   
+    
+}
+
+
+

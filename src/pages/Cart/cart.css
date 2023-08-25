@@ -1,0 +1,137 @@
+.Cart_Cont{
+    padding: 20px;
+}
+
+.Cart_title{
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.topContainor{
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-between;
+}
+
+.btn{
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: black;
+    font-weight: 300;
+    border: none;
+    color: white;
+    margin: 20px;
+}
+.continous{
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-weight: 300;
+    color: black;
+    margin: 20px;
+}
+.bottom_Containor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+flex: 3;
+}
+.product{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.productDetail{
+   display: flex;
+   flex: 2;
+}
+
+.productDetail.img{
+    width: 150px;
+    height: 100px;
+}
+.Detail{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.PriceDetail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PriceAmt{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.qtyprice{
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+
+.price{
+    display: flex;
+
+    align-items: center;
+}
+
+.prodColor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.summery{
+    flex: 1;
+    padding: 20px;
+border-radius: 10px;
+height: 70vh;
+border: solid .5px lightgray;
+}
+.summerytext{
+
+    display: flex;
+    flex-direction: column;
+}
+.summeryDetail{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+
+}
+.title{
+    text-align: center;
+}
+
+.summeryItem{
+display: flex;
+flex-direction: column;
+
+}
+
+.checkoutnow{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-weight: 600;
+}
