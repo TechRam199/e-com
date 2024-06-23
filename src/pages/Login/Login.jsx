@@ -17,18 +17,23 @@ login(dispatch,{username,password})
     }
   return (
     <div className='login_cont'>
-      <h2> Create an Account</h2>
+      <div className="main">
+      <h2 className='title'>Create an Account</h2>
 
-      <form onSubmit={handleSubmit}>
-        <div>
+      <form onSubmit={handleSubmit} className='form_containor'>
+        <div className='name_input'>
 <span>User Name :</span>
 <input type="text" width="30px" height="20px" onChange={(e)=>setusername(e.target.value)} />
 </div>
+<div className='name_input'>
 <span>Password :</span>
 <input type="password" width="30px" height="20px" onChange={(e)=>setpassword(e.target.value)} />
-
-<div><button type='submit'>Login</button></div>
+</div>
+<div className='btn-container'>
+  <button type='submit'>Login</button>
+  </div>
       </form>
+      </div>
     </div>
   )
 }
